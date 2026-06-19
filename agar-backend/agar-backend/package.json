@@ -1,0 +1,22 @@
+{
+  "name": "agar-backend",
+  "version": "1.0.0",
+  "description": "AGAR Furniture Store - Backend API (Express + MongoDB + Cloudinary) deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node local-server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "cors": "^2.8.5",
+    "cloudinary": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
